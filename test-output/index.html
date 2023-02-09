@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-TestSuit" class="navigator-link">
+              <span class="suite-name border-passed">TestSuit</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-TestSuit" class="navigator-link ">
+                    <span>C:\Users\ctvla\eclipse-workspace\Ebayproject\ebaytestng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-TestSuit" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-TestSuit" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-TestSuit" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-TestSuit" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-TestSuit" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-TestSuit" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">20 methods,   20 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-TestSuit" class="hide-methods passed suite-TestSuit"> (hide)</a> <!-- hide-methods passed suite-TestSuit -->
+                      <a href="#" panel-name="suite-TestSuit" class="show-methods passed suite-TestSuit"> (show)</a> <!-- show-methods passed suite-TestSuit -->
+                    </span>
+                    <div class="method-list-content passed suite-TestSuit">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuit" title="testcases.EbayTest" class="method navigator-link" hash-for-method="test12">test12</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuit" title="testcases.EbayTest" class="method navigator-link" hash-for-method="test13">test13</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuit" title="testcases.EbayTest" class="method navigator-link" hash-for-method="test14">test14</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuit" title="testcases.EbayTest" class="method navigator-link" hash-for-method="test15">test15</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuit" title="testcases.EbayTest" class="method navigator-link" hash-for-method="testcase1">testcase1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuit" title="testcases.EbayTest" class="method navigator-link" hash-for-method="testcase10">testcase10</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuit" title="testcases.EbayTest" class="method navigator-link" hash-for-method="testcase11">testcase11</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuit" title="testcases.EbayTest" class="method navigator-link" hash-for-method="testcase16">testcase16</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuit" title="testcases.EbayTest" class="method navigator-link" hash-for-method="testcase17">testcase17</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuit" title="testcases.EbayTest" class="method navigator-link" hash-for-method="testcase18">testcase18</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuit" title="testcases.EbayTest" class="method navigator-link" hash-for-method="testcase19">testcase19</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuit" title="testcases.EbayTest" class="method navigator-link" hash-for-method="testcase2">testcase2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuit" title="testcases.EbayTest" class="method navigator-link" hash-for-method="testcase20">testcase20</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuit" title="testcases.EbayTest" class="method navigator-link" hash-for-method="testcase3">testcase3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuit" title="testcases.EbayTest" class="method navigator-link" hash-for-method="testcase4">testcase4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuit" title="testcases.EbayTest" class="method navigator-link" hash-for-method="testcase5">testcase5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuit" title="testcases.EbayTest" class="method navigator-link" hash-for-method="testcase6">testcase6</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuit" title="testcases.EbayTest" class="method navigator-link" hash-for-method="testcase7">testcase7</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuit" title="testcases.EbayTest" class="method navigator-link" hash-for-method="testcase8">testcase8</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuit" title="testcases.EbayTest" class="method navigator-link" hash-for-method="testcase9">testcase9</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-TestSuit -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-TestSuit" class="panel TestSuit">
+          <div class="suite-TestSuit-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.EbayTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test12">
+                  </a> <!-- test12 -->
+                  <span class="method-name">test12</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test13">
+                  </a> <!-- test13 -->
+                  <span class="method-name">test13</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test14">
+                  </a> <!-- test14 -->
+                  <span class="method-name">test14</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test15">
+                  </a> <!-- test15 -->
+                  <span class="method-name">test15</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase1">
+                  </a> <!-- testcase1 -->
+                  <span class="method-name">testcase1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase10">
+                  </a> <!-- testcase10 -->
+                  <span class="method-name">testcase10</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase11">
+                  </a> <!-- testcase11 -->
+                  <span class="method-name">testcase11</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase16">
+                  </a> <!-- testcase16 -->
+                  <span class="method-name">testcase16</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase17">
+                  </a> <!-- testcase17 -->
+                  <span class="method-name">testcase17</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase18">
+                  </a> <!-- testcase18 -->
+                  <span class="method-name">testcase18</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase19">
+                  </a> <!-- testcase19 -->
+                  <span class="method-name">testcase19</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase2">
+                  </a> <!-- testcase2 -->
+                  <span class="method-name">testcase2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase20">
+                  </a> <!-- testcase20 -->
+                  <span class="method-name">testcase20</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase3">
+                  </a> <!-- testcase3 -->
+                  <span class="method-name">testcase3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase4">
+                  </a> <!-- testcase4 -->
+                  <span class="method-name">testcase4</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase5">
+                  </a> <!-- testcase5 -->
+                  <span class="method-name">testcase5</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase6">
+                  </a> <!-- testcase6 -->
+                  <span class="method-name">testcase6</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase7">
+                  </a> <!-- testcase7 -->
+                  <span class="method-name">testcase7</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase8">
+                  </a> <!-- testcase8 -->
+                  <span class="method-name">testcase8</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase9">
+                  </a> <!-- testcase9 -->
+                  <span class="method-name">testcase9</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestSuit-class-passed -->
+        </div> <!-- panel TestSuit -->
+        <div panel-name="test-xml-TestSuit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\ctvla\eclipse-workspace\Ebayproject\ebaytestng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;TestSuit&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.EbayTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- TestSuit --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-TestSuit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for TestSuit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-TestSuit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for TestSuit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-TestSuit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for TestSuit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_TestSuit');
+function tableData_TestSuit() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(20);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testcase20')
+data.setCell(0, 2, 'testcases.EbayTest')
+data.setCell(0, 3, 6630);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testcase19')
+data.setCell(1, 2, 'testcases.EbayTest')
+data.setCell(1, 3, 4647);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testcase3')
+data.setCell(2, 2, 'testcases.EbayTest')
+data.setCell(2, 3, 4577);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testcase7')
+data.setCell(3, 2, 'testcases.EbayTest')
+data.setCell(3, 3, 4413);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testcase10')
+data.setCell(4, 2, 'testcases.EbayTest')
+data.setCell(4, 3, 4389);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testcase8')
+data.setCell(5, 2, 'testcases.EbayTest')
+data.setCell(5, 3, 4383);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testcase2')
+data.setCell(6, 2, 'testcases.EbayTest')
+data.setCell(6, 3, 4346);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testcase9')
+data.setCell(7, 2, 'testcases.EbayTest')
+data.setCell(7, 3, 4224);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'test14')
+data.setCell(8, 2, 'testcases.EbayTest')
+data.setCell(8, 3, 4190);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testcase17')
+data.setCell(9, 2, 'testcases.EbayTest')
+data.setCell(9, 3, 3526);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'test13')
+data.setCell(10, 2, 'testcases.EbayTest')
+data.setCell(10, 3, 3213);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'test12')
+data.setCell(11, 2, 'testcases.EbayTest')
+data.setCell(11, 3, 3121);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testcase1')
+data.setCell(12, 2, 'testcases.EbayTest')
+data.setCell(12, 3, 3019);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testcase4')
+data.setCell(13, 2, 'testcases.EbayTest')
+data.setCell(13, 3, 2803);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testcase16')
+data.setCell(14, 2, 'testcases.EbayTest')
+data.setCell(14, 3, 2627);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'test15')
+data.setCell(15, 2, 'testcases.EbayTest')
+data.setCell(15, 3, 2264);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testcase18')
+data.setCell(16, 2, 'testcases.EbayTest')
+data.setCell(16, 3, 2071);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testcase5')
+data.setCell(17, 2, 'testcases.EbayTest')
+data.setCell(17, 3, 1238);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testcase6')
+data.setCell(18, 2, 'testcases.EbayTest')
+data.setCell(18, 3, 1217);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testcase11')
+data.setCell(19, 2, 'testcases.EbayTest')
+data.setCell(19, 3, 1182);
+window.suiteTableData['TestSuit']= { tableData: data, tableDiv: 'times-div-TestSuit'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-TestSuit">
+              </div> <!-- times-div-TestSuit -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-TestSuit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for TestSuit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-TestSuit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-TestSuit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.EbayTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">getresult</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">253 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testcase1</span>
+                <span class="method-start">6479 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=testcase1 status=SUCCESS method=EbayTest.testcase1()[pri:0, instance:testcases.Ebay...)</span>
+                <span class="method-start">9501 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">10664 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testcase2</span>
+                <span class="method-start">16195 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=testcase2 status=SUCCESS method=EbayTest.testcase2()[pri:1, instance:testcases.Ebay...)</span>
+                <span class="method-start">20544 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">21688 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testcase3</span>
+                <span class="method-start">26753 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=testcase3 status=SUCCESS method=EbayTest.testcase3()[pri:2, instance:testcases.Ebay...)</span>
+                <span class="method-start">31335 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">32482 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testcase4</span>
+                <span class="method-start">37586 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=testcase4 status=SUCCESS method=EbayTest.testcase4()[pri:3, instance:testcases.Ebay...)</span>
+                <span class="method-start">40390 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">41555 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testcase5</span>
+                <span class="method-start">46688 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=testcase5 status=SUCCESS method=EbayTest.testcase5()[pri:4, instance:testcases.Ebay...)</span>
+                <span class="method-start">47928 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">65174 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testcase6</span>
+                <span class="method-start">70073 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=testcase6 status=SUCCESS method=EbayTest.testcase6()[pri:5, instance:testcases.Ebay...)</span>
+                <span class="method-start">71293 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">72448 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testcase7</span>
+                <span class="method-start">77055 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=testcase7 status=SUCCESS method=EbayTest.testcase7()[pri:6, instance:testcases.Ebay...)</span>
+                <span class="method-start">81469 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">98746 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testcase8</span>
+                <span class="method-start">103930 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=testcase8 status=SUCCESS method=EbayTest.testcase8()[pri:7, instance:testcases.Ebay...)</span>
+                <span class="method-start">108313 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">125603 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testcase9</span>
+                <span class="method-start">130417 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=testcase9 status=SUCCESS method=EbayTest.testcase9()[pri:8, instance:testcases.Ebay...)</span>
+                <span class="method-start">134642 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">151897 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testcase10</span>
+                <span class="method-start">156879 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=testcase10 status=SUCCESS method=EbayTest.testcase10()[pri:9, instance:testcases.Eb...)</span>
+                <span class="method-start">161269 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">178511 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testcase11</span>
+                <span class="method-start">184190 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=testcase11 status=SUCCESS method=EbayTest.testcase11()[pri:10, instance:testcases.E...)</span>
+                <span class="method-start">185373 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">186546 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test12</span>
+                <span class="method-start">192346 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=test12 status=SUCCESS method=EbayTest.test12()[pri:11, instance:testcases.EbayTest@...)</span>
+                <span class="method-start">195472 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">212774 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test13</span>
+                <span class="method-start">217559 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=test13 status=SUCCESS method=EbayTest.test13()[pri:12, instance:testcases.EbayTest@...)</span>
+                <span class="method-start">220773 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">221878 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test14</span>
+                <span class="method-start">227436 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=test14 status=SUCCESS method=EbayTest.test14()[pri:13, instance:testcases.EbayTest@...)</span>
+                <span class="method-start">231627 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">232773 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test15</span>
+                <span class="method-start">237935 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=test15 status=SUCCESS method=EbayTest.test15()[pri:14, instance:testcases.EbayTest@...)</span>
+                <span class="method-start">240200 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">241359 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testcase16</span>
+                <span class="method-start">246639 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=testcase16 status=SUCCESS method=EbayTest.testcase16()[pri:15, instance:testcases.E...)</span>
+                <span class="method-start">249267 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">250345 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testcase17</span>
+                <span class="method-start">255061 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=testcase17 status=SUCCESS method=EbayTest.testcase17()[pri:16, instance:testcases.E...)</span>
+                <span class="method-start">258588 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">259743 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testcase18</span>
+                <span class="method-start">264433 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=testcase18 status=SUCCESS method=EbayTest.testcase18()[pri:17, instance:testcases.E...)</span>
+                <span class="method-start">266504 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">267693 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testcase19</span>
+                <span class="method-start">274130 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=testcase19 status=SUCCESS method=EbayTest.testcase19()[pri:18, instance:testcases.E...)</span>
+                <span class="method-start">278778 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">279956 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testcase20</span>
+                <span class="method-start">285275 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=testcase20 status=SUCCESS method=EbayTest.testcase20()[pri:19, instance:testcases.E...)</span>
+                <span class="method-start">291905 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">293087 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

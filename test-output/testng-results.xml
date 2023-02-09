@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-07T18:26:52 CST" name="TestSuit" finished-at="2023-02-07T18:31:47 CST" duration-ms="294788">
+    <groups>
+    </groups>
+    <test started-at="2023-02-07T18:26:52 CST" name="Test" finished-at="2023-02-07T18:31:47 CST" duration-ms="294788">
+      <class name="testcases.EbayTest">
+        <test-method is-config="true" signature="getresult()[pri:0, instance:testcases.EbayTest@409bf450]" started-at="2023-02-07T18:26:52 CST" name="getresult" finished-at="2023-02-07T18:26:52 CST" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getresult -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.EbayTest@409bf450]" started-at="2023-02-07T18:26:52 CST" name="setup" finished-at="2023-02-07T18:26:58 CST" duration-ms="6225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testcase1()[pri:0, instance:testcases.EbayTest@409bf450]" started-at="2023-02-07T18:26:58 CST" name="testcase1" finished-at="2023-02-07T18:27:01 CST" duration-ms="3019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.EbayTest@409bf450]" started-at="2023-02-07T18:27:01 CST" name="getResult" finished-at="2023-02-07T18:27:02 CST" duration-ms="1163" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcase1 status=SUCCESS method=EbayTest.testcase1()[pri:0, instance:testcases.EbayTest@409bf450] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.EbayTest@409bf450]" started-at="2023-02-07T18:27:02 CST" name="setup" finished-at="2023-02-07T18:27:08 CST" duration-ms="5531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testcase2()[pri:1, instance:testcases.EbayTest@409bf450]" started-at="2023-02-07T18:27:08 CST" name="testcase2" finished-at="2023-02-07T18:27:12 CST" duration-ms="4346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase2 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.EbayTest@409bf450]" started-at="2023-02-07T18:27:12 CST" name="getResult" finished-at="2023-02-07T18:27:13 CST" duration-ms="1143" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcase2 status=SUCCESS method=EbayTest.testcase2()[pri:1, instance:testcases.EbayTest@409bf450] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.EbayTest@409bf450]" started-at="2023-02-07T18:27:14 CST" name="setup" finished-at="2023-02-07T18:27:19 CST" duration-ms="5065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testcase3()[pri:2, instance:testcases.EbayTest@409bf450]" started-at="2023-02-07T18:27:19 CST" name="testcase3" finished-at="2023-02-07T18:27:23 CST" duration-ms="4577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase3 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.EbayTest@409bf450]" started-at="2023-02-07T18:27:23 CST" name="getResult" finished-at="2023-02-07T18:27:24 CST" duration-ms="1146" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcase3 status=SUCCESS method=EbayTest.testcase3()[pri:2, instance:testcases.EbayTest@409bf450] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.EbayTest@409bf450]" started-at="2023-02-07T18:27:24 CST" name="setup" finished-at="2023-02-07T18:27:29 CST" duration-ms="5104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testcase4()[pri:3, instance:testcases.EbayTest@409bf450]" started-at="2023-02-07T18:27:29 CST" name="testcase4" finished-at="2023-02-07T18:27:32 CST" duration-ms="2803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase4 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.EbayTest@409bf450]" started-at="2023-02-07T18:27:32 CST" name="getResult" finished-at="2023-02-07T18:27:33 CST" duration-ms="1164" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcase4 status=SUCCESS method=EbayTest.testcase4()[pri:3, instance:testcases.EbayTest@409bf450] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.EbayTest@409bf450]" started-at="2023-02-07T18:27:33 CST" name="setup" finished-at="2023-02-07T18:27:39 CST" duration-ms="5133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testcase5()[pri:4, instance:testcases.EbayTest@409bf450]" started-at="2023-02-07T18:27:39 CST" name="testcase5" finished-at="2023-02-07T18:27:40 CST" duration-ms="1238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase5 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.EbayTest@409bf450]" started-at="2023-02-07T18:27:40 CST" name="getResult" finished-at="2023-02-07T18:27:57 CST" duration-ms="17245" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcase5 status=SUCCESS method=EbayTest.testcase5()[pri:4, instance:testcases.EbayTest@409bf450] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.EbayTest@409bf450]" started-at="2023-02-07T18:27:57 CST" name="setup" finished-at="2023-02-07T18:28:02 CST" duration-ms="4899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testcase6()[pri:5, instance:testcases.EbayTest@409bf450]" started-at="2023-02-07T18:28:02 CST" name="testcase6" finished-at="2023-02-07T18:28:03 CST" duration-ms="1217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase6 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.EbayTest@409bf450]" started-at="2023-02-07T18:28:03 CST" name="getResult" finished-at="2023-02-07T18:28:04 CST" duration-ms="1155" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcase6 status=SUCCESS method=EbayTest.testcase6()[pri:5, instance:testcases.EbayTest@409bf450] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.EbayTest@409bf450]" started-at="2023-02-07T18:28:04 CST" name="setup" finished-at="2023-02-07T18:28:09 CST" duration-ms="4607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testcase7()[pri:6, instance:testcases.EbayTest@409bf450]" started-at="2023-02-07T18:28:09 CST" name="testcase7" finished-at="2023-02-07T18:28:13 CST" duration-ms="4413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase7 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.EbayTest@409bf450]" started-at="2023-02-07T18:28:13 CST" name="getResult" finished-at="2023-02-07T18:28:31 CST" duration-ms="17276" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcase7 status=SUCCESS method=EbayTest.testcase7()[pri:6, instance:testcases.EbayTest@409bf450] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.EbayTest@409bf450]" started-at="2023-02-07T18:28:31 CST" name="setup" finished-at="2023-02-07T18:28:36 CST" duration-ms="5184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testcase8()[pri:7, instance:testcases.EbayTest@409bf450]" started-at="2023-02-07T18:28:36 CST" name="testcase8" finished-at="2023-02-07T18:28:40 CST" duration-ms="4383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase8 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.EbayTest@409bf450]" started-at="2023-02-07T18:28:40 CST" name="getResult" finished-at="2023-02-07T18:28:57 CST" duration-ms="17289" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcase8 status=SUCCESS method=EbayTest.testcase8()[pri:7, instance:testcases.EbayTest@409bf450] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.EbayTest@409bf450]" started-at="2023-02-07T18:28:57 CST" name="setup" finished-at="2023-02-07T18:29:02 CST" duration-ms="4813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testcase9()[pri:8, instance:testcases.EbayTest@409bf450]" started-at="2023-02-07T18:29:02 CST" name="testcase9" finished-at="2023-02-07T18:29:06 CST" duration-ms="4224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase9 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.EbayTest@409bf450]" started-at="2023-02-07T18:29:06 CST" name="getResult" finished-at="2023-02-07T18:29:24 CST" duration-ms="17255" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcase9 status=SUCCESS method=EbayTest.testcase9()[pri:8, instance:testcases.EbayTest@409bf450] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.EbayTest@409bf450]" started-at="2023-02-07T18:29:24 CST" name="setup" finished-at="2023-02-07T18:29:29 CST" duration-ms="4982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testcase10()[pri:9, instance:testcases.EbayTest@409bf450]" started-at="2023-02-07T18:29:29 CST" name="testcase10" finished-at="2023-02-07T18:29:33 CST" duration-ms="4389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase10 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.EbayTest@409bf450]" started-at="2023-02-07T18:29:33 CST" name="getResult" finished-at="2023-02-07T18:29:50 CST" duration-ms="17242" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcase10 status=SUCCESS method=EbayTest.testcase10()[pri:9, instance:testcases.EbayTest@409bf450] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.EbayTest@409bf450]" started-at="2023-02-07T18:29:50 CST" name="setup" finished-at="2023-02-07T18:29:56 CST" duration-ms="5679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testcase11()[pri:10, instance:testcases.EbayTest@409bf450]" started-at="2023-02-07T18:29:56 CST" name="testcase11" finished-at="2023-02-07T18:29:57 CST" duration-ms="1182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase11 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.EbayTest@409bf450]" started-at="2023-02-07T18:29:57 CST" name="getResult" finished-at="2023-02-07T18:29:58 CST" duration-ms="1173" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcase11 status=SUCCESS method=EbayTest.testcase11()[pri:10, instance:testcases.EbayTest@409bf450] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.EbayTest@409bf450]" started-at="2023-02-07T18:29:58 CST" name="setup" finished-at="2023-02-07T18:30:04 CST" duration-ms="5800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test12()[pri:11, instance:testcases.EbayTest@409bf450]" started-at="2023-02-07T18:30:04 CST" name="test12" finished-at="2023-02-07T18:30:07 CST" duration-ms="3121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test12 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.EbayTest@409bf450]" started-at="2023-02-07T18:30:07 CST" name="getResult" finished-at="2023-02-07T18:30:25 CST" duration-ms="17301" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test12 status=SUCCESS method=EbayTest.test12()[pri:11, instance:testcases.EbayTest@409bf450] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.EbayTest@409bf450]" started-at="2023-02-07T18:30:25 CST" name="setup" finished-at="2023-02-07T18:30:29 CST" duration-ms="4784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test13()[pri:12, instance:testcases.EbayTest@409bf450]" started-at="2023-02-07T18:30:29 CST" name="test13" finished-at="2023-02-07T18:30:33 CST" duration-ms="3213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test13 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.EbayTest@409bf450]" started-at="2023-02-07T18:30:33 CST" name="getResult" finished-at="2023-02-07T18:30:34 CST" duration-ms="1105" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test13 status=SUCCESS method=EbayTest.test13()[pri:12, instance:testcases.EbayTest@409bf450] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.EbayTest@409bf450]" started-at="2023-02-07T18:30:34 CST" name="setup" finished-at="2023-02-07T18:30:39 CST" duration-ms="5558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test14()[pri:13, instance:testcases.EbayTest@409bf450]" started-at="2023-02-07T18:30:39 CST" name="test14" finished-at="2023-02-07T18:30:43 CST" duration-ms="4190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test14 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.EbayTest@409bf450]" started-at="2023-02-07T18:30:43 CST" name="getResult" finished-at="2023-02-07T18:30:45 CST" duration-ms="1146" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test14 status=SUCCESS method=EbayTest.test14()[pri:13, instance:testcases.EbayTest@409bf450] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.EbayTest@409bf450]" started-at="2023-02-07T18:30:45 CST" name="setup" finished-at="2023-02-07T18:30:50 CST" duration-ms="5162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test15()[pri:14, instance:testcases.EbayTest@409bf450]" started-at="2023-02-07T18:30:50 CST" name="test15" finished-at="2023-02-07T18:30:52 CST" duration-ms="2264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test15 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.EbayTest@409bf450]" started-at="2023-02-07T18:30:52 CST" name="getResult" finished-at="2023-02-07T18:30:53 CST" duration-ms="1159" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test15 status=SUCCESS method=EbayTest.test15()[pri:14, instance:testcases.EbayTest@409bf450] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.EbayTest@409bf450]" started-at="2023-02-07T18:30:53 CST" name="setup" finished-at="2023-02-07T18:30:58 CST" duration-ms="5280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testcase16()[pri:15, instance:testcases.EbayTest@409bf450]" started-at="2023-02-07T18:30:58 CST" name="testcase16" finished-at="2023-02-07T18:31:01 CST" duration-ms="2627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase16 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.EbayTest@409bf450]" started-at="2023-02-07T18:31:01 CST" name="getResult" finished-at="2023-02-07T18:31:02 CST" duration-ms="1078" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcase16 status=SUCCESS method=EbayTest.testcase16()[pri:15, instance:testcases.EbayTest@409bf450] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.EbayTest@409bf450]" started-at="2023-02-07T18:31:02 CST" name="setup" finished-at="2023-02-07T18:31:07 CST" duration-ms="4716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testcase17()[pri:16, instance:testcases.EbayTest@409bf450]" started-at="2023-02-07T18:31:07 CST" name="testcase17" finished-at="2023-02-07T18:31:10 CST" duration-ms="3526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase17 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.EbayTest@409bf450]" started-at="2023-02-07T18:31:10 CST" name="getResult" finished-at="2023-02-07T18:31:12 CST" duration-ms="1155" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcase17 status=SUCCESS method=EbayTest.testcase17()[pri:16, instance:testcases.EbayTest@409bf450] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.EbayTest@409bf450]" started-at="2023-02-07T18:31:12 CST" name="setup" finished-at="2023-02-07T18:31:16 CST" duration-ms="4690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testcase18()[pri:17, instance:testcases.EbayTest@409bf450]" started-at="2023-02-07T18:31:16 CST" name="testcase18" finished-at="2023-02-07T18:31:18 CST" duration-ms="2071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase18 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.EbayTest@409bf450]" started-at="2023-02-07T18:31:18 CST" name="getResult" finished-at="2023-02-07T18:31:20 CST" duration-ms="1189" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcase18 status=SUCCESS method=EbayTest.testcase18()[pri:17, instance:testcases.EbayTest@409bf450] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.EbayTest@409bf450]" started-at="2023-02-07T18:31:20 CST" name="setup" finished-at="2023-02-07T18:31:26 CST" duration-ms="6437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testcase19()[pri:18, instance:testcases.EbayTest@409bf450]" started-at="2023-02-07T18:31:26 CST" name="testcase19" finished-at="2023-02-07T18:31:31 CST" duration-ms="4647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase19 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.EbayTest@409bf450]" started-at="2023-02-07T18:31:31 CST" name="getResult" finished-at="2023-02-07T18:31:32 CST" duration-ms="1178" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcase19 status=SUCCESS method=EbayTest.testcase19()[pri:18, instance:testcases.EbayTest@409bf450] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.EbayTest@409bf450]" started-at="2023-02-07T18:31:32 CST" name="setup" finished-at="2023-02-07T18:31:37 CST" duration-ms="5319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testcase20()[pri:19, instance:testcases.EbayTest@409bf450]" started-at="2023-02-07T18:31:37 CST" name="testcase20" finished-at="2023-02-07T18:31:44 CST" duration-ms="6630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase20 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.EbayTest@409bf450]" started-at="2023-02-07T18:31:44 CST" name="getResult" finished-at="2023-02-07T18:31:45 CST" duration-ms="1182" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcase20 status=SUCCESS method=EbayTest.testcase20()[pri:19, instance:testcases.EbayTest@409bf450] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.EbayTest@409bf450]" started-at="2023-02-07T18:31:45 CST" name="teardown" finished-at="2023-02-07T18:31:47 CST" duration-ms="1695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testcases.EbayTest -->
+    </test> <!-- Test -->
+  </suite> <!-- TestSuit -->
+</testng-results>
